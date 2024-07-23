@@ -1,0 +1,146 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+h1 {
+    margin-top: 140px;
+    color: #525252;
+}
+
+p {
+    color: #5252529e;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    margin-top: 16px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 64px;
+    top: 16px;
+}
+
+.social-icon {
+    height: 24px;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    width: 36px;
+    top: 16px;
+    left: 16px;
+}
+
+.contactBtn {
+    color: white;
+    background-color: #FEB62F;
+    padding: 8px 80px;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactBtn:hover {
+    text-decoration: none;
+    background-color: #fbc051;
+}
+
+.button-icon {
+    height: 16px;
+    margin-right: 4px;
+}
+
+.wave-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0099ff;
+    height: 50px;
+    color: white;
+}
+
+@media (min-width: 850px) {
+    h1 {
+        margin-top: 200px;
+    }
+
+    .wave {
+        height: 300px;
+    }
+
+    .desktop-left-right {
+        display: flex;
+    }
+
+    .main-image {
+        width: 50%;
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wave-bottom {
+        bottom: 0px;
+    }
+
+    body {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .wave {
+        height: 330px;
+        object-position: bottom;
+    }
+
+    .main-image {
+        width: 30%;
+        margin-top: 150px;
+    }
+
+    a {
+        margin-right: 16px;
+    }
+}
